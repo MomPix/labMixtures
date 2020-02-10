@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "http-server -p 8080 -c-1 dist/labMixtures",
+    "start": "http-server -p 8080 -c-1 src",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
