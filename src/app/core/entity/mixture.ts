@@ -3,11 +3,11 @@
 export class Mixture {
 
   public title: string;
-  public ingredients: string;
+  public amount: number;
 
-  constructor(title: string, ingredients: string) {
+  constructor(title: string, amount: number) {
     this.title = title;
-    this.ingredients = ingredients;
+    this.amount = amount;
   }
 
 }
